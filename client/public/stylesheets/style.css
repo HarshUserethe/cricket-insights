@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+.header-bar{
+    width: 100vw;
+    height: 6vw;
+    background-color: #142D34;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation-bar{
+    width: 75%;
+    height: 100%;
+    display: flex;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.logo>h2{
+    font-size: 2vw;
+    font-weight: 500;
+}
+.nav-list{
+    width: 80%;
+    height: 100%;
+    padding-left: 5rem;
+}
+.nav-icon{
+    font-size: 1.4rem;
+}
+.nav-list>li>a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+    font-size: .90rem;
+}
+.nav-list>li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+    font-size: .90rem;
+}
+.live-score{
+    width: 100vw;
+    height: 20vw;
+}
+.top-border{
+   width: 100%;
+   height: 10%;
+   background-color: #fff;
+}
+.score-container{
+    width: 100%;
+    height: 90%;
+    background-color: #142D34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scroller{
+    width:80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    gap: 10px;
+}
+.scroller::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    width: 33%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 7px;
+    z-index: 2;
+}
+.scroll-button{
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.left{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.right{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.content-section{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.inner-body{
+    width: 70%;
+    display: flex;
+    padding: 10px;
+}
+.inner-left{
+    width: 60%;
+    border: 1px solid #dfdfdf;
+}
+.inner-right{
+    width: 40%;
+}
+.news-wrapper{
+  width: 100%;
+ 
+}
+.blog-title{
+    font-weight: bold;
+    font-size: 1rem;
+}
+.blog-sub{
+    color: gray;
+    font-size: .8rem;
+}
+.author{
+    font-size: .7rem;
+    color: rgb(161, 161, 161);
+}
+.sm-news{
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+}
+.cover-sm:hover{
+    background-color: #dfdfdfb4;
+    cursor: pointer;
+}
+.cover-lg:hover{
+    background-color: #dfdfdfb4;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.card-hz{
+    width: 100%;
+    border: 1px solid #dfdfdf;
+}
+.pic-of-the-day{
+    width: 100%;
+    height: 90%;
+    padding: 10px;
+}
+.pic-of-the-day>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.pic-title{
+    position: relative;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 600;
+    /* margin-bottom: 7vw; */
+    top: -.8rem;
+}
+.cw-header-wrapper{
+    width: 100%;
+    padding: 10px;
+}
+.cw-font{
+    font-size: .9rem;
+}
+.cww-font{
+    font-size: .8rem;
+}
+.teamInfo{
+    width: 50%;
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    padding-left: 10px;
+}
+.teamFlag{
+    width: 2.8vw;
+    height: 1.8vw;
+    background-color: yellow;
+}
+.teamFlag>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.team{
+    display: flex;
+    align-items: center;
+}
+.teamScore{
+    text-align: left;
+    font-size: .8rem;
+}
+.match-result{
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 500;
+    background-color: #ececec;
+    padding: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+.image-cont{
+    width: 14vw;
+    height: 8vw;
+    background-color: red;
+    border-radius: 7px;
+}
+.image-cont>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.bdcum:hover{
+ cursor: pointer;
+ background-color: #dfdfdfb4;
+}
+
+.tb{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: .8rem;
+    background-color: #1b3e47;
+    color: #fff;
+}
+.tb-c{
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-size: .8rem;
+    color: #fff;
+}
+.tb-row:nth-child(even){
+background-color: #1b3e47;
+}
+.tb-row:nth-child(odd){
+    background-color: #2f6a79;
+}
+.buttons-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap:20px;
+    padding: 10px;
+    padding-right: 16vw;
+    padding-left: 16vw;
+}
+.main-content{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+
+}
+.main-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sw-buttons{
+    font-size: .8rem !important;
+    border-radius: 500px;
+    background-color: maroon;
+    font-weight: 600;
+    width: 15vw;
+}
+.active{
+ background-color: #1b3e47;;
+ box-shadow: 1px 1px 5px #00000065;
+}
+.cnt-pg{
+    display: flex;
+}
+.upcoming-matches {
+ display: flex;
+ flex-wrap: wrap;
+ align-items: start;
+ justify-content: space-between;
+}
+.nw-card{
+    border:1px solid #dfdfdf;
+    position: relative;
+    top: 0; /* Initial state for top */
+    transition: top 0.3s cubic-bezier(0.19, 1, 0.22, 1); /* Ensure top is included in the transition */
+}
+
+.nw-card:hover {
+    cursor: pointer;
+    top: -1vw;
+}
+.error{
+    text-align: center;
+    color: maroon;
+    width: 100%;
+    padding: 5vw;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.sh-card{
+    width: 35%;
+    height: 18vw;
+    padding:"10px";
+    border: 1px solid #dfdfdf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sh-card-image{
+width: 100%;
+height: 80%;
+padding: 10px;
+}
+.sh-card-image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sh-title{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1rem;
+font-weight: 500;
+width: 100%;
+height: 20%;
+flex-direction: column;
+}
+.sh-title>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sh-card:hover{
+    background-color: #dfdfdf;
+}
+.match-list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.match-date{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfdfdf;
+    color: #000;
+    border: 1px solid #142d342f;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 7px;
+}
+.all-matches{
+    width: 70%;
+    padding: 5px;
+}
+.mt-type{
+    background-color: rgba(99, 212, 99, 0.158);
+    font-size: .72rem;
+    border-radius: 500px;
+    width: 10vw;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mt-bottom{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+}
+.v-name{
+    background-color: rgba(235, 166, 109, 0.267);
+    font-size: .7rem !important;
+    border-radius: 500px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m-format{
+background-color: rgba(255, 161, 173, 0.267) !important;
+}
+.match{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #0000003b;
+}
+.mt-center{
+    width: 20% !important;
+}
+.nn-patern{
+    width: 100%;
+    background-color: rgba(172, 255, 47, 0.267) !important;
+    color: green;
+    margin-top: 1%;
+}
+.wrp{
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+}
+
+.wrrp{
+    padding: 10px;
+    border: 1px solid #dfdfdf;
+}
+.wrrp:nth-child(odd){
+    background-color: #dfdfdf;
+}
